@@ -9,6 +9,7 @@ QtDialog::QtDialog(QWidget *parent) :
   ui(new Ui::QtDialog)
 {
   ui->setupUi(this);
+  on_start_clicked();
 }
 
 QtDialog::~QtDialog()
